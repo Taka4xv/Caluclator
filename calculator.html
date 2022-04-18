@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="caluclator.js"></script>
+    <link rel="stylesheet" href="calculator.css" type="text/css" />
+    <title>計算機Caluclator</title>
+</head>
+<body>
+    <header>
+        <div>
+            <h1>CALUCLATOR</h1>
+        </div>
+
+        
+    </header>
+    <main>
+        <div for="Caluclator">
+            <output id="Display">0</output>
+            <table id="Tenkey">
+                <div>
+                    <tr>
+                        <td id="btn_AC" colspan="2"><button class="width115" type="button">AC</button></td>
+                        <td id="btn_clear" colspan="2"><button class="width115" type="button">C</button></td>
+                    </tr>
+                    <tr>
+                        <td class="btn_num"><button class="width50"  type="button">7</button></td>
+                        <td class="btn_num"><button class="width50"  type="button">8</button></td>
+                        <td class="btn_num"><button class="width50"  type="button">9</button></td>
+                        <td class="btn_symbol" id="btn_plas"><button class="width50" type="button">+</button></td>
+                    </tr>
+                    <tr>    
+                        <td class="btn_num"><button class="width50" type="button">4</button></td>
+                        <td class="btn_num"><button class="width50" type="button">5</button></td>
+                        <td class="btn_num"><button class="width50" type="button">6</button></td>
+                        <td class="btn_symbol" id="subtraction"><button class="width50" type="button">-</button></td>
+                    </tr>
+                    <tr>    
+                        <td class="btn_num"><button class="width50" type="button">1</button></td>
+                        <td class="btn_num"><button class="width50" type="button">2</button></td>
+                        <td class="btn_num"><button class="width50" type="button">3</button></td>
+                        <td class="btn_symbol" id="btn_multiplication"><button class="width50" type="button">*</button></td>
+                    </tr>
+                    <tr>
+                        <td class="btn_num"><button class="width50" type="button">0</button></td>
+                        <td class="btn_num"><button class="width50" type="button">00</button></td>
+                        <td id="btn_period"><button class="width50" type="button">.</button></td>
+                        <td class="btn_symbol" id="btn_division"><button class="width50" type="button">/</button></td>
+                    </tr>
+                    <tr>    
+                        <td id="btn_equal" colspan="4"><button class="width250" type="button">=</button></td>
+                    </tr>
+                </div>
+            </table>
+        </div>
+    </main>
+</body>
+</html>
